@@ -9,7 +9,7 @@ using WeCan.Models;
 namespace WeWap.Controllers
 {
     /// <summary>
-    /// 常规移动端资讯类项目:蝗交给git远程
+    /// 常规移动端资讯类项目:提交给git远程
     /// </summary>
     public class HomeController : Controller
     {
