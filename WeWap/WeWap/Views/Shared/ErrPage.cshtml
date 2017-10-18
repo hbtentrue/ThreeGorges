@@ -1,0 +1,60 @@
+﻿@{
+    Layout = null;
+    string msg = TempData.ContainsKey("msg") ? TempData["msg"] : (ViewBag.msg != null ? ViewBag.msg : "出现错误");
+}
+<!DOCTYPE html>
+<html>
+<head>
+    @Link.Meta
+    <title>操作提示</title>
+
+    <style>
+        * {
+            text-align: center;
+            margin:0;
+            padding:0;
+        }
+        html, body {
+            width:100%;
+            height:100%;
+        }
+        body {
+            position: relative;
+            background: -webkit-linear-gradient(#a8dae0, #5f88c0, #635893);
+        }
+
+        img {
+            width: 100%;
+            height: 68%;
+        }
+
+        div {
+            position: absolute;
+            font-size: 1em;
+            top: 63%;
+            width: 100%;
+            color:white;
+        }
+
+        a {
+            display: block;
+            width: 54%;
+            margin: auto;
+            font-size: 1em;
+            font-weight:bold;
+            border: 0.2em solid white;
+            color: white;
+            padding: 0.5em 3em;
+            border-radius: 4.7em;
+        }
+    </style>
+</head>
+<body>
+    <img src="/Images/bkg_shigongzhong.png" />
+    <div>给我一些时间，还您温馨一片!</div>
+    <a href="javascript:history.back();">返回</a>
+    <script>
+    alert("@msg")
+    </script>
+</body>
+</html>

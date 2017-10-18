@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WeCanRoot>
+  <CssTextList Remark="以文本方式输出,在大括号内或行内或js内调用">
+    <Css CssName="clr_bodybkgbase" CssValue="#f1f1f1" Remark="表单页body通用的浅灰背景色"/>
+    <Css CssName="clr_weuibase" CssValue="#02B300" Remark="微信官方主题颜色"/>
+    <Css CssName="clr_70base" CssValue="#008CBA" Remark="宜昌教育局导航条主题颜色"/>
+    <Css CssName="clr_103base" CssValue="#2BAC96" Remark="章华小学主题颜色"/>
+    <Css CssName="clr_1001base" CssValue="#005FCB" Remark="装备站主题颜色"/>
+    <Css CssName="clr_152base" CssValue="#b90614" Remark="十堰市招生考试院"/>
+    <Css CssName="clr_db1" CssValue="#F56131" Remark="宜昌三峡中等专业学校"/>
+    <Css CssName="clr_labelbase" CssValue="#005fcb" Remark="文本主题颜色"/>
+    <Css CssName="clr_102base" CssValue="#377DCA" Remark="宜昌十七中主题颜色"/>
+    <Css CssName="clr_labelbase113" CssValue="#0975DA" Remark="文本主题颜色"/>
+    <Css CssName="clr_plcholder" CssValue="#CFCFCF" Remark="输入框预留文字的颜色"/>
+    <Css CssName="fsz_click" CssValue="0.85em" Remark="点击量字号"/>
+    <Css CssName="padding" CssValue="1em" Remark="内填充"/>
+    <Css CssName="clr_layer" CssValue="#fff" Remark="弹出层颜色"/>
+    <Css CssName="hack_apple" CssValue="border:0;outline: none;" Remark="清除边框"/>
+    <Css CssName="hack_android" CssValue="background:inherit;" Remark="清除边框"/>
+  </CssTextList>
+  <CssNameList Remark="以一组样式方式输出,只能在style标签下直接输出">
+    <Css KeyDec="class" CssName=".clr_btn" CssValue=".clr_btn{background-color:#0B71E6;border-radius:5px;color:#fff}" Remark="提交按钮的颜色"/>
+    <Css KeyDec="class" CssName=".clr_qx" CssValue=".clr_qx{background-color:#CACACA;border-radius:5px;color:#fff}" Remark="取消按钮的颜色"/>
+    <Css KeyDec="class" CssName=".redirectlink" CssValue=".redirectlink{position: fixed;bottom: 0px;display: block;width: 100%;padding: 1em 0em;text-align: center;background-color: #fcfcfc;color: #005FCB;opacity:.9;border-top:1px solid #e6e6e6;z-index:1;}" Remark="底部跳转的链接"/>
+    <Css KeyDec="class" CssName=".underline" CssValue=".underline {border-bottom:1px solid #efefef !important}" Remark="下划线题颜色"/>
+    <Css KeyDec="class" CssName=".cls_spacing2" CssValue=".cls_spacing2 {letter-spacing: 2em !important;margin-right: -2em !important;}" Remark="2个字符分散对齐"/>
+    <Css KeyDec="class" CssName=".cls_spacing3" CssValue=".cls_spacing3 {letter-spacing: 0.5em !important;margin-right: -0.5em !important;}" Remark="3个字符分散对齐"/>
+    <Css KeyDec="underLine" CssName="_clearapple" CssValue="input,select {-webkit-appearance: none;background:inherit}" Remark="清除苹果默认样式"/>
+    <Css KeyDec="underLine" CssName="_border" CssValue="select{border:0;outline: none;}" Remark="清除边框"/>
+    <Css KeyDec="underLine" CssName="_font" CssValue="*{font-family: Heiti SC;}" Remark="苹果字体"/>
+  </CssNameList>
+  <SiteList>
+    <Site SiteId="70" SiteName="宜昌教育局会议服务系统" PcUrl="" WxUrl="yeahkk.imwork.net" AdminUrl="" Appid="wx7c1e30075d2024ab" AppSecret="FA0AA1EF5615AC379E77F8D046C9B69A147F6A1685A00E0069B1BBD2E7C72499158CC49C0D7F79D2" Remark=""/>
+    <Site SiteId="1" Area="b" SiteName="三峡中专" PcUrl="www.yc3xzz.com.cn" AdminUrl="" WxUrl="wx.jlxjyj.cn"/>
+  </SiteList>
+  <SiteList_old Remark="旧的站点">
+    <Site SiteId="103" SiteName="章华小学" PcUrl="www.jlzhxx.org.cn" AdminUrl="" WxUrl="wx.jlzhxx.org.cn" Appid="wxd2587358b776b306"/>
+    <Site SiteId="85" SiteName="天楚微平台" PcUrl="demo.tentrue.com" AdminUrl="" WxUrl="yeahkk.imwork.net" Appid="wx7c1e30075d2024ab" AppSecret="FA0AA1EF5615AC379E77F8D046C9B69A147F6A1685A00E0069B1BBD2E7C72499158CC49C0D7F79D2"/>
+  </SiteList_old>
+  <SortList>
+    <ItemSort SiteId="103" SortId="4871" SortName="校园新闻" ViewName="ItemListTopImg"/>
+    <ItemSort SiteId="103" SortId="4873" SortName="校园公告" ViewName="ItemListLeftIcon" MergeList="4874,4875,4876,4877,4878" ShowSelf="true"/>
+    <ItemSort SiteId="103" SortId="4872" SortName="校园视频" ViewName="ItemListVideo"/>
+  </SortList>
+  <SortList_old Remark="旧的主栏目">
+    <ItemSort SiteId="103" SortId="4871" SortName="校园新闻" ViewName="ItemListTopImg"/>
+    <ItemSort SiteId="103" SortId="4873" SortName="校园公告" ViewName="ItemListLeftIcon" MergeList="4874,4875,4876,4877,4878" ShowSelf="true"/>
+    <ItemSort SiteId="103" SortId="4872" SortName="校园视频" ViewName="ItemListVideo"/>
+  </SortList_old>
+  <SubSortList>
+    <ItemSort SiteId="103" Pid="4850" SortId="4851" SortName="学校简介"/>
+  </SubSortList>
+  <SubSortList_old Remark="旧的子栏目">
+    <ItemSort SiteId="103" Pid="4850" SortId="4851" SortName="学校简介"/>
+  </SubSortList_old>
+</WeCanRoot>
